@@ -1,0 +1,80 @@
+.header{
+    font-size: 1.5rem;
+}
+
+.header .menuList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .menuList input[type = button]{
+    border: none;
+    padding: 0.53rem;
+    /*border: 1px solid red;*/
+    border-radius: 0.5rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.themeBtn{
+    font-size: 1.3rem;
+}
+
+.themeBtn:hover{
+    cursor: pointer;
+}
+
+.mobileHeader{
+    display: none;
+}
+
+.desktopHeader{
+    display: inherit;
+}
+
+.portfolioName{
+    padding-right: 2rem;
+}
+
+.portfolioName a{
+    display: inline;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .header .menuList{
+        justify-content: center;
+    }
+
+    .header .menuList input[type = button]{
+        border: none;
+        padding: 0.5rem;
+        /*border: 1px solid red;*/
+        border-radius: 0.5rem;
+        margin: 0 2rem;
+        cursor: pointer;
+    }
+
+    .mobileHeader{
+        display: inherit;
+    }
+
+    .mobileHeader .firstRow{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.1rem;
+    }
+
+    .mobileHeader .firstRow .themeBtnDiv{
+        text-align: right;
+        padding-right: 1rem;
+    }
+
+    .desktopHeader{
+        display: none;
+    }
+}

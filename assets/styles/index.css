@@ -1,0 +1,77 @@
+.main{
+    padding: 0.3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .workMainBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.main .workBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.main .workBox .workName, .workDescription, .workImage, .workText, p{
+    background: transparent;
+}
+
+.main .workBox .workName{
+    color: #ff6767;
+    font-weight: 900;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    padding-left: 1.2rem;
+}
+
+.main .workBox .workDescription{
+    display: flex;
+    flex-direction: row;
+}
+
+.main .workBox .workDescription .workText p{
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.main .workBox .capitalise{
+    font-size: 2rem;
+    background: transparent;
+    font-weight: 900;
+    color: rgba(250, 65, 65, 0.78);
+}
+
+.main .workBox .viewWork{
+    color: #ff7b92;
+    background: transparent;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*.main .workBox .workDescription .workImage .workImg{*/
+/*    !*height: 100%;*!*/
+/*    width: 100%;*/
+/*}*/
+
+@media only screen and (max-width: 768px) {
+    .main .workBox{
+        align-items: center;
+    }
+
+    .main .workBox .workDescription{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main .workBox .workName{
+        padding-left: 0;
+    }
+}

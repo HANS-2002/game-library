@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hans Pattnaik</title>
+    <link rel="shortcut icon" href="./assets/codeImg.jpg" type="image/x-icon">
+    <link href="assets/styles/main.css" rel="stylesheet">
+    <link href="assets/styles/index.css" rel="stylesheet">
+    <link href="assets/styles/header.css" rel="stylesheet">
+    <link href="assets/styles/footer.css" rel="stylesheet">
+    <link href="assets/styles/lightTheme.css" rel="stylesheet" id="themeLink">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body onload="themeUpdate()">
+<div class="row header">
+    <div class="mobileHeader">
+        <div class="col-12 firstRow">
+            <div class="portfolioName"><a href="https://hans-2002.github.io/">Hans Pattnaik</a></div>
+            <div class="themeBtnDiv">
+                <i class="fa-solid themeBtn themeBtn1 fa-lightbulb" onclick="changeTheme1()"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 desktopHeader">
+        <div class="col-4 portfolioName"><a href="https://hans-2002.github.io/">Hans Pattnaik</a></div>
+        <div class="col-6 menuList">
+        </div>
+        <div class="col-2 themeBtnDiv">
+            <i class="fa-solid themeBtn themeBtn2 fa-lightbulb" onclick="changeTheme2()"></i>
+        </div>
+    </div>
+</div>
+<div class="row main">
+    <div class="row workMainBox">
+        <h1>
+            <u style="color: rgba(255,26,86,0.76); font-size: 1.8rem">GAMEDEV PROJECTS</u>
+        </h1>
+        <div class="col-10 workBox">
+            <div class="workName">
+                Block Breaker
+            </div>
+            <div class="workDescription col-12">
+                <div class="workImage col-7">
+                    <img
+                            src="./assets/achievements/code_jam.png"
+                            alt="code_jam_certificate"
+                            class="col-12"/>
+                </div>
+                <div class="workText col-5">
+                    <p>
+                        <span class="capitalise">
+                            T
+                        </span>
+                        his was the first ever codejam that I gave. Obviously this is
+                        not the best, but good enough for a first try.
+                    </p>
+                    <a href="./assets/achievements/code_jam.pdf" class="viewWork" target="_blank">
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row footer">
+    <div class="col-12 socials">
+        <a href="mailto:pattnaikhans@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/HANS-2002" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/hanspattnaik/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://twitter.com/hanspattnaik" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <div class="col-12 copyright">
+        <span style="font-weight: 600;">
+            &copy; 2022
+        </span>
+        <span style="font-weight: 900; margin: 0 0.6rem">
+            •
+        </span>
+        <a href="https://hans-2002.github.io/" style="color: #ff7b92; cursor: pointer; text-decoration: none;font-weight: 600">
+            Hans Pattnaik
+        </a>
+    </div>
+</div>
+<script src="./assets/scripts/main.js"></script>
+</body>
+</html>
