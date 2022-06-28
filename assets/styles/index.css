@@ -42,6 +42,11 @@
     margin-bottom: 2rem;
 }
 
+.main .workBox .workDescription .workText{
+    display: flex;
+    flex-direction: column;
+}
+
 .main .workBox .capitalise{
     font-size: 2rem;
     background: transparent;
